@@ -13,6 +13,10 @@
 		3EAFF1B8256C229A00507920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFF1B6256C229A00507920 /* Main.storyboard */; };
 		3EAFF1BA256C229C00507920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFF1B9256C229C00507920 /* Assets.xcassets */; };
 		3EAFF1BD256C229C00507920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFF1BB256C229C00507920 /* LaunchScreen.storyboard */; };
+		3EAFF1C6256C235C00507920 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFF1C5256C235C00507920 /* StateData.swift */; };
+		3EAFF1C9256C24F600507920 /* CoronaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFF1C8256C24F600507920 /* CoronaData.swift */; };
+		3EAFF1CD256C320D00507920 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFF1CC256C320D00507920 /* DetailViewController.swift */; };
+		3EAFF1D5256C3BC400507920 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFF1D4256C3BC400507920 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3EAFF1B9256C229C00507920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EAFF1BC256C229C00507920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EAFF1BE256C229C00507920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAFF1C5256C235C00507920 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
+		3EAFF1C8256C24F600507920 /* CoronaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaData.swift; sourceTree = "<group>"; };
+		3EAFF1CC256C320D00507920 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EAFF1D4256C3BC400507920 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				3EAFF1B0256C229A00507920 /* AppDelegate.swift */,
 				3EAFF1B2256C229A00507920 /* SceneDelegate.swift */,
+				3EAFF1C5256C235C00507920 /* StateData.swift */,
+				3EAFF1C8256C24F600507920 /* CoronaData.swift */,
+				3EAFF1D4256C3BC400507920 /* SplashScreenViewController.swift */,
 				3EAFF1B4256C229A00507920 /* ViewController.swift */,
+				3EAFF1CC256C320D00507920 /* DetailViewController.swift */,
 				3EAFF1B6256C229A00507920 /* Main.storyboard */,
 				3EAFF1B9256C229C00507920 /* Assets.xcassets */,
 				3EAFF1BB256C229C00507920 /* LaunchScreen.storyboard */,
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAFF1B5256C229A00507920 /* ViewController.swift in Sources */,
+				3EAFF1C6256C235C00507920 /* StateData.swift in Sources */,
+				3EAFF1D5256C3BC400507920 /* SplashScreenViewController.swift in Sources */,
 				3EAFF1B1256C229A00507920 /* AppDelegate.swift in Sources */,
+				3EAFF1CD256C320D00507920 /* DetailViewController.swift in Sources */,
 				3EAFF1B3256C229A00507920 /* SceneDelegate.swift in Sources */,
+				3EAFF1C9256C24F600507920 /* CoronaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
